@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+body {
+    transition: all .3s;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.btn-100 {
+    width: 100%;
+}
+
+.boas-vindas {
+    display: none;
+}
+
+.game-container {
+    border: 10px solid #fff;
+    box-shadow: 0 0 10px #333;
+    transition: all .3s;
+    /* display: none; */
+    /* animation-name: bordasColoridas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; */
+}
+
+.btn-change-skin.active:hover,
+.btn-change-skin.active:active,
+.btn-change-skin.active {
+    background: #333;
+    border-color: #333;
+    color: #fff;
+}
+
+.info-container {
+    padding: 20px;
+}
+
+.info-pontos {
+    border-radius: 5px;
+}
+
+.info-pontos {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.info-pontos span {
+    display: block;
+    font-weight: bolder;
+    font-family: Calibri;
+    font-size: 48pt;
+    color: #067cca;
+}
+
+.progress-vida {
+    height: 100px !important;
+}
+
+.info-vida {
+    font-size: 42pt;
+    padding-top: 40px;
+    text-shadow: 0 0 5px #333;
+}
+
+@keyframes bordasColoridas {
+
+    0% {
+        border-color: #067cca;
+    }
+
+    20% {
+        border-color: #333;
+    }
+
+    40% {
+        border-color: #06c954;
+    }
+
+    60% {
+        border-color: #c9c206;
+    }
+
+    80% {
+        border-color: #c96a06;
+    }
+
+    100% {
+        border-color: #c90647;
+    }
+
+}
